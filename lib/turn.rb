@@ -35,8 +35,13 @@ puts "Please enter 1-9:"
 user_input = gets.strip
 index = input_to_index(user_input)
   if !valid_move?(board, index)
+<<<<<<< HEAD
     turn(board)
   else
+=======
+  else
+    puts "Please enter 1-9:"
+>>>>>>> a5923640f0cd44694ae0c413dfff3d30a6b1b1f8
   move(board, index, character = "X")
   display_board(board)
   end
